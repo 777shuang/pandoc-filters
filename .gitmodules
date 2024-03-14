@@ -1,3 +1,6 @@
 [submodule "pandoc-include"]
 	path = pandoc-include
 	url = https://github.com/777shuang/pandoc-include
+[submodule "lua-filters"]
+	path = lua-filters
+	url = https://github.com/pandoc/lua-filters
