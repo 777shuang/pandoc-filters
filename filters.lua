@@ -1,3 +1,4 @@
-require "pandoc-include.pandoc-include"
-require "lua-filters.include-code-files.include-code-files"
-require "lua-filters.diagram-generator.diagram-generator"
+local filters = require "pandoc-include.pandoc-include"
+filters = pandoc.List(filters):__concat(require "lua-filters.include-code-files.include-code-files")
+filters = pandoc.List(filters):__concat(require "lua-filters.diagram-generator.diagram-generator")
+return filters
