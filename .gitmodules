@@ -7,3 +7,6 @@
 [submodule "pandoc-obsidian-filter"]
 	path = pandoc-obsidian-filter
 	url = https://github.com/777shuang/pandoc-obsidian-filter
+[submodule "sky-y-lua-filters"]
+	path = sky-y-lua-filters
+	url = https://github.com/sky-y/sky-y-lua-filters
